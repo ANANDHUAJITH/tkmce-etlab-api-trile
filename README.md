@@ -1,12 +1,12 @@
-# RIT Etlab Portal API
+# TKMCE Etlab Portal API
 
-Unofficial API for accessing useful data for students from the [RIT Etlab portal](https://rit.etlab.in/user/login). This API allows you to perform actions such as login, logout, view attendance, access timetable, retrieve basic profile information, and more.
+Unofficial API for accessing useful data for students from the [TKMCE Etlab portal](https://tkmce.etlab.in/user/login). This API allows you to perform actions such as login, logout, view attendance, access timetable, retrieve basic profile information, and more.
 
 > [!NOTE]
 > This API relies on web scraping techniques and may be subject to potential bugs if the structure of the RIT Etlab portal changes.
 
 > [!TIP]
-> Even though this project was made specifically for [RIT Etlab portal](https://rit.etlab.in/user/login), this project could be used for any **Etlab** implementations by making required changes to the `BASE_URL` and `COOKIE_KEY` present in `config.py`
+> Even though this project was made specifically for [tkm Etlab portal](https://tkmce.etlab.in/user/login), this project could be used for any **Etlab** implementations by making required changes to the `BASE_URL` and `COOKIE_KEY` present in `config.py`
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Unofficial API for accessing useful data for students from the [RIT Etlab portal
 
 ## Features
 
-- Login to RIT Etlab portal
+- Login to tkm Etlab portal
 - View attendance details
 - Access timetable information
 - Retrieve basic profile information
@@ -40,13 +40,13 @@ Unofficial API for accessing useful data for students from the [RIT Etlab portal
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/devadathanmb/rit-etlab-api.git
+   git clone https://github.com/ANANDHUAJITH/tkmce-etlab-api.git
    ```
 
 3. Navigate to the project directory:
 
    ```bash
-   cd rit-etlab-api/
+   cd tkmce-etlab-api/
    ```
 
 4. Build and run the docker container
@@ -66,13 +66,13 @@ Unofficial API for accessing useful data for students from the [RIT Etlab portal
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/devadathanmb/rit-etlab-api.git
+   git clone https://github.com/ANANDHUAJITH/tkmce-etlab-api.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd rit-etlab-api
+   cd tkmce-etlab-api
    ```
 
 3. Create and activate a virtual environment (optional):
@@ -104,15 +104,10 @@ For detailed information on API endpoints and usage, refer to the [Swagger Docum
 
 ## Known Issues
 
-- The API relies on web scraping and may encounter issues if the structure of the RIT Etlab portal changes.
+- The API relies on web scraping and may encounter issues if the structure of the Etlab portal changes.
 
-## Deployment
 
-The API is deployed at **https://rit-etlab-api.onrender.com/apidocs**. Visit the deployment for live usage.
 
-### Availability
-
-Monitor the API's availability in real-time using [Uptime Robot Status Page](https://stats.uptimerobot.com/pplYnfQOZQ).
 
 ## Contributing
 
